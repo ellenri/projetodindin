@@ -207,6 +207,11 @@ margin-top: 5rem;
 display: flex;
 justify-content: start;
 margin-bottom: 12rem;
+
+}
+
+.button-posts button {
+  background-color: #E5E5E5;
 }
 
 footer {
@@ -233,6 +238,23 @@ background-color: #2E948A;
 border: 2px solid #FFFFFF;
 border-radius: 62px;
 margin-top: 2rem;
-
 }
 
+.footer>.nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer>.nav>li {
+  padding: 0px 10px;
+    font-weight: 400;
+  font-size: 20px;
+  line-height: 22.98px;
+  color: #FDFDFD;
+}
+
+a:link {
+  text-decoration: none;
+  color: #FDFDFD;
+}
