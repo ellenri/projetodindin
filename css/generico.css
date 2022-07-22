@@ -10,8 +10,11 @@ body {
 }
 
 a {
-    color: white;
     text-decoration: none;
+}
+
+footer a, header a {
+    color: white;
 }
 
 ul{
@@ -30,6 +33,7 @@ ul{
     line-height: 23px;
     text-align: center; 
     border-style: solid;
+    cursor: pointer;
 }
 
 .button-verde{
