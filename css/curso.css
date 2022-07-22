@@ -1,0 +1,59 @@
+.curso {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+.caixa-de-texto {
+    color: #000000;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.caixa-cinza {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+h3 {
+    color: #000000;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.aulas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 7rem;
+
+
+}
+
+.linha-divisoria {
+    width: 1244px;
+    height: 3px;
+    left: 98px;
+    top: 1068px;
+    background-color: #C4C4C4;
+    margin-bottom: 7rem;
+
+}
+
+.texto-aulas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}

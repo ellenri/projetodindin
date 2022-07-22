@@ -11,29 +11,7 @@ h4 {
   color: #555555;
 }
 
-.quadro-cinza {
-  background-color: #F7F7F7;
-  display: flex;
-  margin-top: 5rem;
-  justify-content: space-around;
-  padding-bottom: 10rem;
-}
 
-.conjuntos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.informacoes {
-  margin-bottom: 3rem;
-}
-
-h5 {
-  font-size: 35px;
-  color: #ff4081;
-}
 
 .quadro-cinza img {
   height: 500px;

@@ -64,3 +64,28 @@ h1.h1-rosa{
     font-size: 60px;
     color: #ff4081;
 }
+
+h5.h5-rosa{
+    font-size: 35px;
+    color: #ff4081;
+}
+
+.quadro-cinza {
+    background-color: #F7F7F7;
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+    padding-bottom: 10rem;
+  }
+  
+    
+  .quadro-cinza .conjuntos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quadro-cinza .informacoes{
+    margin-bottom: 3rem;
+  }
