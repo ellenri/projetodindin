@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    max-width: 1366px;
+    margin: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Botones */
+
+.button{
+    border-radius: 62px;
+    border-color: #419488;
+    width: 233px;
+    Height: 51px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center; 
+    border-style: solid;
+}
+
+.button-verde{
+    background: #419488;
+    color: #FFFFFF;
+}
+
+.button-rosa-outline{
+    color: #FF4081;
+    border-color: #FF4081;
+    background-color: white;
+    border-width: 1px;
+}
+
+.button-rosa{
+    color: white;
+    border-color: #FF4081;
+    background-color: #FF4081;
+    border-width: 1px;
+}
+
+.button-branco-outline{
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    border-width: 1px;
+}
+
+/* titulos */
+
+h1.h1-rosa{
+    font-size: 60px;
+    color: #ff4081;
+}

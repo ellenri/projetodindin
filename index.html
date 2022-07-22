@@ -9,12 +9,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/generico.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
   <header class="header">
-    <img src="images/logo-header.png" width="244" />
+    <a href="./index.html">
+      <img src="images/logo-header.png" width="244" />
+    </a>
     <ul class="nav">
       <li><a href="./cursos.html">Cursos</a></li>
       <li><a href="./blog.html">Blog</a></li>
@@ -22,14 +28,14 @@
     </ul>
   </header>
   <main>
-    <div class="container">
+    <div class="container educacao">
       <div class="textos">
-        <h3>
+        <h1 class="h1-rosa">
           Educação <br> Financeira <br>é tudo de bom</h3>
-        </h3>
+        </h1>
         <h4> Vem comigo que te mostro <br> por onde começar
         </h4>
-        <button>
+        <button class="button button-rosa-outline">
           quero saber mais
         </button>
       </div>
@@ -47,7 +53,7 @@
           Duis aute irure dolor in reprehenderit <br> in voluptate velit es se cillum dolore <br>
           eu fugiat nulla pariatur.
         </div>
-        <button class="comecar">
+        <button class="button button-rosa">
           começar agora
         </button>
       </div>
@@ -63,7 +69,7 @@
           eu fugiat nulla pariatur.
         </div>
 
-        <button class="comecar">
+        <button class="button button-rosa">
           começar agora
         </button>
       </div>
@@ -77,13 +83,13 @@
           Duis aute irure dolor in reprehenderit <br> in voluptate velit es se cillum dolore <br>
           eu fugiat nulla pariatur.
         </div>
-        <button class="comecar">
+        <button class="button button-rosa">
           começar agora
         </button>
       </div>
     </div>
 
-    <div class="sobre-nos">
+    <div class="sobre-nos container">
       <h1> O QUE FALAM SOBRE NÓS </h1>
       <div class="colaboradores">
         <div class="colaborador">
@@ -142,72 +148,74 @@
     </div>
     <div class="mais-conteudo">
       <h1>MAIS CONTÉUDO PARA VOCÊ</h1>
-      <div class="caixas-conteudos">
-        <div class="retangulo-caixa">
-        </div>
+      <div class="conteudo-interno">
+        <div class="caixas">
+          <div class="caixas-conteudos">
+            <div class="retangulo-caixa">
+            </div>
 
-        <div class="titulo-caixa">
-          Itaque earum rerum
-        </div>
+            <div class="titulo-caixa">
+              Itaque earum rerum
+            </div>
 
-        <div class="texto-caixa">
-          hic tenetur a sapiente delectus, ut aut <br> reiciendis voluptatibus maiores alias <br> consequatur aut
-          perferendis doloribus <br> asperiores repellat.
+            <div class="texto-caixa">
+              hic tenetur a sapiente delectus, ut aut <br> reiciendis voluptatibus maiores alias <br> consequatur aut
+              perferendis doloribus <br> asperiores repellat.
+            </div>
+          </div>
+          <div class="caixas-conteudos">
+            <div class="retangulo-caixa">
+            </div>
+
+            <div class="titulo-caixa">
+              Itaque earum rerum
+            </div>
+
+            <div class="texto-caixa">
+              hic tenetur a sapiente delectus, ut aut <br> reiciendis voluptatibus maiores alias <br> consequatur aut
+              perferendis doloribus <br> asperiores repellat.
+            </div>
+          </div>
+          <div class="caixas-conteudos">
+            <div class="retangulo-caixa">
+            </div>
+
+            <div class="titulo-caixa">
+              Itaque earum rerum
+            </div>
+
+            <div class="texto-caixa">
+              hic tenetur a sapiente delectus, ut aut <br> reiciendis voluptatibus maiores alias <br> consequatur aut
+              perferendis doloribus <br> asperiores repellat.
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="caixas-conteudos">
-        <div class="retangulo-caixa">
-        </div>
-
-        <div class="titulo-caixa">
-          Itaque earum rerum
-        </div>
-
-        <div class="texto-caixa">
-          hic tenetur a sapiente delectus, ut aut <br> reiciendis voluptatibus maiores alias <br> consequatur aut
-          perferendis doloribus <br> asperiores repellat.
-        </div>
-      </div>
-
-      <div class="caixas-conteudos">
-        <div class="retangulo-caixa">
-        </div>
-
-        <div class="titulo-caixa">
-          Itaque earum rerum
-        </div>
-
-        <div class="texto-caixa">
-          hic tenetur a sapiente delectus, ut aut <br> reiciendis voluptatibus maiores alias <br> consequatur aut
-          perferendis doloribus <br> asperiores repellat.
-        </div>
-
-        <div class="button-posts">
-          <button>
-            ver todos os posts
-          </button>
-        </div>
-      </div>
+      <button class="button button-rosa-outline">
+        ver todos os posts
+      </button>
     </div>
 
     <footer class="footer">
-      <img src="images/logo-footer.png" width="244" />
-      <ul class="nav">
-        <li><a href="./cursos.html">cursos</a></li>
-        <li><a href="./blog.html">blog</a></li>
-        <li><a href="./contato.html">contato</a></li>
-      </ul>
+      <div class="container">
+        <div class="inner">
+          <img src="images/logo-footer.png" width="244" />
+          <ul class="nav">
+            <li><a href="./cursos.html">cursos</a></li>
+            <li><a href="./blog.html">blog</a></li>
+            <li><a href="./contato.html">contato</a></li>
+          </ul>
     
-    <div class="button-footer">
-<button>
-  quero ser prof
-</button>
-<button>
-  aqui tem outro link
-</button>
-
-    </div>
+          <div class="button-footer">
+            <button class="button button-branco-outline">
+              quero ser prof
+            </button>
+            <button class="button button-branco-outline">
+              aqui tem outro link
+            </button>
+          </div>
+        </div>
+      </div>
     </footer>
 
 

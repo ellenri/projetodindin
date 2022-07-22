@@ -1,0 +1,27 @@
+
+.flex-contato {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem auto;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+            }
+
+form {
+    display: flex;
+    flex-direction: column;
+    }
+
+form input, textarea{
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    margin: 0.5rem 0rem;
+    border-radius: 10px;
+    font-family: "ubuntu";
+}
+
+
+
